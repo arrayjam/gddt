@@ -1,2 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.jumbotron {
+  background: white image-url("dog1.jpg") no-repeat center center;
+  background-size: 100% auto;
+}
+
+.main-section {
+  border-bottom: 1px solid #eee;
+  padding: 30px 0 50px;
+}

@@ -6,6 +6,7 @@ gem 'rails', '4.1.4'
 group :development, :test do
 	gem 'rspec-rails', '~> 3.0.0'
 	gem 'sqlite3', '~> 1.3.0'
+	gem 'guard-livereload'
 end
 
 group :test do
