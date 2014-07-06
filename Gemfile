@@ -49,7 +49,7 @@ gem 'capistrano-bundler', '~> 1.1.0'
 gem 'capistrano-rails', '~> 1.1.0'
 
 gem 'dotenv'
-gem 'dotenv-deployment', require: 'dotenv/deployment'
+gem 'dotenv-deployment'
 
 
 # Use debugger
