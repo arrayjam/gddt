@@ -10,6 +10,9 @@ set :repo_url, 'git@github.com:arrayjam/gddt.git'
 # Default deploy_to directory is /var/www/my_app
 set :deploy_to, '/home/deploy/dogdaytraining.com.au'
 
+set :chruby_ruby, 'ruby-2.1.2'
+set :chruby_exec, '/usr/local/bin/chruby-exec'
+
 # Default value for :scm is :git
 # set :scm, :git
 
