@@ -47,7 +47,10 @@ gem 'spring',        group: :development
 gem 'capistrano', '~> 3.2.0'
 gem 'capistrano-bundler', '~> 1.1.0'
 gem 'capistrano-rails', '~> 1.1.0'
-gem 'capistrano-chruby'
+
+gem 'dotenv'
+gem 'dotenv-deployment', require: 'dotenv/deployment'
+
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
