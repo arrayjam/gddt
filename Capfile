@@ -9,6 +9,7 @@ require 'capistrano/rails'
 
 require 'capistrano/chruby'
 set :chruby_ruby, 'ruby-2.1.2'
+set :chruby_exec, '/usr/local/bin/chruby-exec'
 
 # Includes tasks from other gems included in your Gemfile
 #
