@@ -5,7 +5,6 @@ gem 'rails', '4.1.4'
 
 group :development, :test do
 	gem 'rspec-rails', '~> 3.0.0'
-	gem 'sqlite3', '~> 1.3.0'
 	gem 'guard-livereload'
 end
 
@@ -14,7 +13,7 @@ group :test do
 	gem 'capybara', '~> 2.4.0'
 end
 
-gem 'pg', '~> 0.17.1'
+gem 'sqlite3', '~> 1.3.0'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.2.0'
