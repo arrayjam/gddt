@@ -18,6 +18,26 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Francois+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0; background: white;">
+  <div class="container-fluid container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">
+        <%= image_tag("Website-Logo-90x90.png") %>
+        <span>Good Dog Day Training</span>
+      </a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to "Home", :home_page %></li>
+      <li><%= link_to "Day Training", :training_page %></li>
+      <li><%= link_to "Dog Training", :walking_page %></li>
+      <li><%= link_to "Meet the Trainer", :trainer_page %></li>
+      <li><%= link_to "Contact Us", :contact_page %></li>
+    </ul>
+  </div>
+</nav>
+
 
 <%= yield %>
 
