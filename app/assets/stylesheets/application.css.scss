@@ -10,3 +10,26 @@
   border-bottom: 1px solid #eee;
   padding: 30px 0 50px;
 }
+
+.navbar-nav > li > a {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Francois One", sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  min-width: 400px;
+}
+
+.navbar-brand span {
+  font-family: "Francois One", sans-serif;
+  font-size: 30px;
+  color: #1c72a0;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
