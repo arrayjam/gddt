@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GoodDogDayTraining</title>
+  <title>Good Dog Day Training</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -19,22 +19,31 @@
 </head>
 <body>
 <nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0; background: white;">
-  <div class="container-fluid container">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/">
-        <%= image_tag("Website-Logo-90x90.png") %>
-        <span>Good Dog Day Training</span>
-      </a>
+    <div class="row" style="height: 120px">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          <%= image_tag("Website-Logo.png") %>
+        </a>
+      </div>
+
+      <div class="pull-right" style="padding: 30px 0; text-align: right;">
+        <div style="font-size: 130%;"><a href="tel:0432768076">0432768076</a></div>
+        <div>Stephanie Shaw</div>
+        <div><a href="mailto:steph@dogdaytraining.com.au">steph@dogdaytraining.com.au</a></div>
+      </div>
     </div>
 
-    <ul class="nav navbar-nav navbar-right">
-      <li><%= link_to "Home", :home_page %></li>
-      <li><%= link_to "Day Training", :training_page %></li>
-      <li><%= link_to "Dog Training", :walking_page %></li>
-      <li><%= link_to "Meet the Trainer", :trainer_page %></li>
-      <li><%= link_to "Contact Us", :contact_page %></li>
-    </ul>
+    <div class="row">
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Home", :home_page %></li>
+        <li><%= link_to "Day Training", :training_page %></li>
+        <li><%= link_to "Dog Training", :walking_page %></li>
+        <li><%= link_to "Meet the Trainer", :trainer_page %></li>
+        <li><%= link_to "Contact Us", :contact_page %></li>
+      </ul>
+    </div>
   </div>
 </nav>
 

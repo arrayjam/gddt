@@ -6,47 +6,24 @@
 
 <section class="main-section">
   <div class="container">
-    <div class="col-md-6" style="text-align: center">
-      <%= image_tag "training.jpg", style: "width: 100%" %>
-      <h2>Day Training</h2>
+    <div class="row">
+      <div class="col-xs-6" style="text-align: center">
+        <a href="<%= training_page_url %>" style="display: block;">
+          <%= image_tag "training.jpg", style: "width: 100%" %>
+          <h2>Day Training</h2>
+        </a>
+      </div>
+      <div class="col-xs-6" style="text-align: center">
+        <a href="<%= walking_page_url %>">
+          <%= image_tag "walking.jpg", style: "width: 100%" %>
+          <h2>Dog Walking</h2>
+        </a>
+      </div>
     </div>
-    <div class="col-md-6" style="text-align: center">
-      <%= image_tag "walking.jpg", style: "width: 100%" %>
-      <h2>Dog Walking</h2>
-    </div>
 
-    <p class="lead">
-      Good Dog Day Training offers dog walking and day training in Melbourne’s South-Eastern suburbs, so life with your best friend is as fun and easy as it should be.
-
-      <ul>
-        <li>
-          Qualified, experienced trainer & walker
-        </li>
-        <li>
-          Most up to date positive training methods
-        </li>
-        <li>
-          Trained in first aid for humans and canines
-        </li>
-        <li>
-          Fully insured
-        </li>
-
-      </ul>
+    <p class="lead" style="padding: 60px 0; text-align: center;">
+      Good Dog Day Training offers dog walking and day training in Melbourne’s South-Eastern suburbs,<br/>so life with your best friend is as fun and easy as it should be.
     </p>
 
   </div>
 </section>
-
-<section class="main-section" id="contact">
-  <div class="container">
-    <h1>Contact Us</h1>
-    <addr></addr>
-    <address>
-      <strong>Stephanie Shaw</strong><br />
-      <a href="tel:0432768076">0432768076</a><br />
-      <a href="mailto:steph@dogdaytraining.com.au">steph@dogdaytraining.com.au</a>
-    </address>
-  </div>
-</section>
-
