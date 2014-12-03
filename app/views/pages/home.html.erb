@@ -9,23 +9,32 @@
 <section class="main-section">
   <div class="container">
     <div class="row">
-      <div class="col-xs-6" style="text-align: center">
+
+      <p class="lead" style="padding: 0 0 30px 0; text-align: center; font-size: 20px">
+        Good Dog Day Training offers dog training and dog walking in Melbourne’s South-Eastern suburbs,<br/>so life with your best friend is as fun and easy as it should be.
+      </p>
+
+      <div class="col-xs-4" style="text-align: center">
+        <a href="<%= private_training_page_url %>" style="display: block;">
+          <%= image_tag "private_training.jpg", style: "width: 100%" %>
+          <h2>Private Training</h2>
+        </a>
+      </div>
+
+      <div class="col-xs-4" style="text-align: center">
         <a href="<%= day_training_page_url %>" style="display: block;">
           <%= image_tag "day_training.jpg", style: "width: 100%" %>
           <h2>Day Training</h2>
         </a>
       </div>
-      <div class="col-xs-6" style="text-align: center">
+
+      <div class="col-xs-4" style="text-align: center">
         <a href="<%= walking_page_url %>">
           <%= image_tag "walking.jpg", style: "width: 100%" %>
           <h2>Dog Walking</h2>
         </a>
       </div>
     </div>
-
-    <p class="lead" style="padding: 60px 0; text-align: center;">
-      Good Dog Day Training offers dog walking and day training in Melbourne’s South-Eastern suburbs,<br/>so life with your best friend is as fun and easy as it should be.
-    </p>
 
   </div>
 </section>

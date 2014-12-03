@@ -7,6 +7,10 @@ class PagesController < ApplicationController
     render
   end
 
+  def private_training
+    render
+  end
+
   def day_training
     render
   end
