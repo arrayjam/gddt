@@ -7,7 +7,7 @@ class PagesController < ApplicationController
     render
   end
 
-  def training
+  def day_training
     render
   end
 
